@@ -1,4 +1,5 @@
-:star2: Api Start Wars - Testes Automatizados
+
+# Api Start Wars - Testes Automatizados :star2:
 
 ## Objetivo
 
@@ -26,7 +27,7 @@ Monalysa Klauck Yoshikawa
 [Linkedin] : <https://www.linkedin.com/in/monalysa-yoshikawa/>
 
 
-# Testes Automatizados
+## Testes Automatizados
 
 Existem varios tipos de testes que podemos aplicar no JAVA e em outras linguagens tambem.
 
