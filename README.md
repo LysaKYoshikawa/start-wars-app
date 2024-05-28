@@ -1,18 +1,23 @@
-:stars: Api Start Wars esse projeto foi desenvolvido para estudo da aplicado de teste unitario em Java com spring boot
+:star2: Api Start Wars - Testes Automatizados
+
+## Objetivo
+
+Este projeto visa aplicar testes automatizados em uma api com tema Star Wars para usar como estudo e praticas de teste unitario, integrado e subcutâneos
+
 
 ### :loudspeaker: Features 
 
-- [x] SpringBoot
-- [x] Config do mysql
-- [ ] teste
+- [x] Criação do projeto 
+- [x] Adicionando banco de dados H2
+- [ ] Notas sobre testes automatizados
 
 
 
 # :pushpin: Tecnologias Ultilizadas
 
-- java
+- java 17
 - springboot
-- mysql
+- H2
 - teste unitario
 
 
