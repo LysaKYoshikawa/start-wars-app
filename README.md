@@ -1,20 +1,22 @@
 
-# Api Start Wars - Testes Automatizados :star2:
+<h1 style="color:gold;padding:30px;"> Api Start Wars - Testes Automatizados :star2: </h1>
 
-## Objetivo
+<h2 style="color:#31d4dd;"> Objetivo </h2>
 
 Este projeto visa aplicar testes automatizados em uma api com tema Star Wars para usar como estudo e praticas de teste unitario, integrado e subcutâneos
 
 
-### :loudspeaker: Features 
+<h3 style="color:#31d4dd;">:loudspeaker: Features </h3>
 
 - [x] Criação do projeto 
 - [x] Adicionando banco de dados H2
 - [ ] Notas sobre testes automatizados
+- [ ] Teste unidade
+- [ ] Teste de Integração
+- [ ] Teste Subcutâneo
 
 
-
-# :pushpin: Tecnologias Ultilizadas
+<h3 style="color:#31d4dd;"> :pushpin: Tecnologias Ultilizadas </h3>
 
 - java 17
 - springboot
@@ -22,28 +24,42 @@ Este projeto visa aplicar testes automatizados em uma api com tema Star Wars par
 - teste unitario
 
 
-# :pushpin: Author
-Monalysa Klauck Yoshikawa
-[Linkedin] : <https://www.linkedin.com/in/monalysa-yoshikawa/>
 
 
-## Testes Automatizados
+<h2 style="color:orange;padding:10px;">
+Testes Automatizados
+</h2>
+
 
 Existem varios tipos de testes que podemos aplicar no JAVA e em outras linguagens tambem.
 
-### Teste Unitario : 
-Ele é mais simples, o primeiro a ser desenvolvido pela sua simplicidade e objetividade.
+<h3 style="color:#31d4dd;"> Teste Unitario : </h3>
+Ele é mais simples, o primeiro a ser desenvolvido pela sua simplicidade e objetividade. focado em metodos e classes. Os testes unitarios podem ser divididos em Solitários e Sociaveis
 
+Solitario quando eu testo uma funcionalidade que não depende de banco de dados, ou quando não depende de algo externo para ser testado.
+
+Sociaveis é quando a gente começa “conversar” com uma parte do código. Quando o teste precisa de outra funcionalidade para executar, seja ela banco de dados ou pedaço de código.
 ![image](https://github.com/LysaKYoshikawa/start-wars-app/assets/64383080/cb13f0cd-ab77-4e72-a36a-c9651d8ec90e)
 
-### Teste de Integração
+<h3 style="color:#31d4dd;"> Teste de Integração : </h3>
+É quando eu expando meus testes unitarios eu integro com banco de dados, eu utilizo uma camada web.
+
+Amplos são testes que cruzam mais outras camadas.
+
+Dublês de teste : quando eu uso um substituto para meu teste por exemplo supondo que meu banco de dados é o oracle eu uso o h2 para teste, crio um duble para o banco e assim executar teste.
 
 ![image](https://github.com/LysaKYoshikawa/start-wars-app/assets/64383080/e5e11808-a5cf-4808-807d-44963d8ebc25)
 
-### Teste de componente
+<h3 style="color:#31d4dd;"> Teste de componente : </h3>
+Esse teste tambem é conhecido como teste subcutaneo, ele cruza varios componentes
 
 ![image](https://github.com/LysaKYoshikawa/start-wars-app/assets/64383080/a2fa5c98-c1d5-4322-9896-0d4fa13f5336)
 
-### Teste E2E
+<h3 style="color:#31d4dd;"> Teste E2E : </h3>
+Esse teste sobre tudo e simula uma jornada de usuario. Ele costuma ser mais lento, as vezes pode quebrar mais facil por ser talvez mais instavel. Porem ele é mais confiavel por imitar uma jornada real de usuario.
 
 ![image](https://github.com/LysaKYoshikawa/start-wars-app/assets/64383080/df42e2d0-d44d-4c63-b67f-dff80432b045)
+
+#### :pushpin: Author
+Monalysa Klauck Yoshikawa
+[Linkedin] : <https://www.linkedin.com/in/monalysa-yoshikawa/>
