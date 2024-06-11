@@ -41,6 +41,14 @@ Solitario quando eu testo uma funcionalidade que não depende de banco de dados,
 Sociaveis é quando a gente começa “conversar” com uma parte do código. Quando o teste precisa de outra funcionalidade para executar, seja ela banco de dados ou pedaço de código.
 ![image](https://github.com/LysaKYoshikawa/start-wars-app/assets/64383080/cb13f0cd-ab77-4e72-a36a-c9651d8ec90e)
 
+Dubles de teste: Usados pelos testes solitários para simular o comportamento das suas dependências.
+Tipos de dubles:
+    - Dummy é apenas para compilar, não é invocado. As vezes usados em cenarios com tdd.
+    - Fake é uma implementação funcional, mas não usada em produção (ex: banco em memoria)
+    - Stud é a ideia de responder com ideias pré estabelecidas: quando chamado com determinados parametros então retornar valor fixo(verificação de estado)
+    - Spy é parecido com o stud porem alem de retornar o valores pré estabelecidos ele retorna estado e compotamento dos valores. Um exemplo informado foi de um teste realizado em que era adicionado elementos nessa lista e alem de retornar se realmente foi adicionado ele retorou a quantidade de vezes que foi chamado.
+    - Mock a ideia do mock é a interação exata com os objetos que o usam, verificar se o fluxo desejado foi invocado (verificação de comportamento)
+
 <h3 style="color:#31d4dd;"> Teste de Integração : </h3>
 É quando eu expando meus testes unitarios eu integro com banco de dados, eu utilizo uma camada web.
 
