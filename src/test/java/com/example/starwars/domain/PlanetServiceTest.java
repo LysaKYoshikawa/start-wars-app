@@ -1,5 +1,7 @@
 package com.example.starwars.domain;
 
+import static com.example.starwars.common.PlanetConstants.PLANET;
+import static  org.assertj.core.api.Assertions.assertThat;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -13,6 +15,9 @@ class PlanetServiceTest {
 
     @Test
     public void createPlanet_WithValidData_ReturnsPlanet() {
-        planetService.create(planet);
+        // system under test
+        Planet sut = planetService.create(PLANET);
+
+        assertThat(sut).isEqualTo(PLANET);
     }
 }
