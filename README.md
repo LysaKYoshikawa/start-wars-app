@@ -60,6 +60,22 @@ Esse teste sobre tudo e simula uma jornada de usuario. Ele costuma ser mais lent
 
 ![image](https://github.com/LysaKYoshikawa/start-wars-app/assets/64383080/df42e2d0-d44d-4c63-b67f-dff80432b045)
 
+<h3 style="color:#31d4dd;"> Boas Praticas dos testes: </h3>
+
+<p>
+    Sempre é interessante desenhar ou registrar os tipos de teste que deseja fazer antes de escreve-los.
+Outra boa pratica para facilitar na nomeação é separar o nome por operacao_estado_returnoesperado
+ex vai ser com a operação de criar_com estado de dados validos_e o retorno sera os planetas
+
+</p>
+
+~~~ Java
+// operacao_estado_returnoesperado
+public void createPlanet_WithValidData_ReturnsPlanet(){
+
+    }
+~~~
+
 #### :pushpin: Author
 Monalysa Klauck Yoshikawa
 [Linkedin] : <https://www.linkedin.com/in/monalysa-yoshikawa/>
