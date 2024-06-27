@@ -1,7 +1,7 @@
 
 <h1 style="color:gold;padding:30px;"> Api Start Wars - Testes Automatizados :star2: </h1>
 
-<h2 style="color:#31d4dd;"> Objetivo </h2>
+<h2 style="color:#31d4dd;"> Objetivo</h2>
 
 Este projeto visa aplicar testes automatizados em uma api com tema Star Wars para usar como estudo e praticas de teste unitario, integrado e subcutâneos
 
@@ -34,11 +34,11 @@ Testes Automatizados
 Existem varios tipos de testes que podemos aplicar no JAVA e em outras linguagens tambem.
 
 <h3 style="color:#31d4dd;"> Teste Unitario : </h3>
-Ele é mais simples, o primeiro a ser desenvolvido pela sua simplicidade e objetividade. focado em metodos e classes. Os testes unitarios podem ser divididos em Solitários e Sociaveis
+Ele é mais simples, o primeiro a ser desenvolvido pela sua simplicidade e objetividade, focado em métodos e classes. Os testes unitários podem ser divididos em Solitários e Sociáveis.
 
-Solitario quando eu testo uma funcionalidade que não depende de banco de dados, ou quando não depende de algo externo para ser testado.
+Solitário é quando eu testo uma funcionalidade que não depende de banco de dados, ou quando não depende de algo externo para ser testado.
 
-Sociaveis é quando a gente começa “conversar” com uma parte do código. Quando o teste precisa de outra funcionalidade para executar, seja ela banco de dados ou pedaço de código.
+Sociáveis é quando a gente começa a “conversar” com uma parte do código. Quando o teste precisa de outra funcionalidade para executar, seja ela banco de dados ou pedaço de código.
 ![image](https://github.com/LysaKYoshikawa/start-wars-app/assets/64383080/cb13f0cd-ab77-4e72-a36a-c9651d8ec90e)
 <p>
 
