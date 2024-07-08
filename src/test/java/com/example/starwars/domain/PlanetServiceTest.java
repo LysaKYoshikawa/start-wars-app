@@ -13,6 +13,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
+import java.util.Optional;
+
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.when;
 @ExtendWith(MockitoExtension.class)
@@ -40,10 +42,22 @@ class PlanetServiceTest {
     }
     @Test
     public void getPlanet_ByExistingId_ReturnPlanet(){
+        Long id = 1L;
+        when(planetRepository.findById(id)).thenReturn(Optional.of(PLANET));
 
+        Optional<Planet> sut = planetService.get(id);
+
+        assertThat(sut).isPresent();
+        assertThat(sut.get()).isEqualTo(PLANET);
     }
     @Test
     public void getPlanet_ByUnexistingId_ReturnPlanet(){
+        Long id = 1L;
+        when(planetRepository.findById(id)).thenReturn(Optional.empty());
+
+        Optional<Planet> sut = planetService.get(id);
+
+        assertThat(sut).isNotPresent();
 
     }
 
