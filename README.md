@@ -11,7 +11,12 @@ Este projeto visa aplicar testes automatizados em uma api com tema Star Wars par
 - [x] Criação do projeto 
 - [x] Adicionando banco de dados H2
 - [ ] Notas sobre testes automatizados
-- [ ] Teste unidade
+- [ ] Adicionando methodo do create
+- [ ] Adicionando o methodo do Lista planeta
+- [ ] Adcionando o metodo de delete planeta
+- [ ] Teste unidade para criação de planeta
+- [ ] Teste unid de Lista de planetas
+- [ ] Teste de dados invalidos de planetas
 - [ ] Teste de Integração
 - [ ] Teste Subcutâneo
 
