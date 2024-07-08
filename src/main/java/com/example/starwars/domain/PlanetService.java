@@ -16,7 +16,7 @@ public class PlanetService {
 
     };
 
-    public Optional<Planet> get(Long id) {
+    public Optional<Planet>get(Long id) {
         return planetRepository.findById(id);
     }
 }

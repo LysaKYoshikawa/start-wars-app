@@ -37,7 +37,14 @@ class PlanetServiceTest {
 
         assertThatThrownBy(() -> planetService.create(INVALID_PLANET)).isInstanceOf(RuntimeException.class);
 
-
+    }
+    @Test
+    public void getPlanet_ByExistingId_ReturnPlanet(){
 
     }
+    @Test
+    public void getPlanet_ByUnexistingId_ReturnPlanet(){
+
+    }
+
 }
